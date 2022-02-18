@@ -7,7 +7,6 @@
 }
 
 body {
-  /* background-image: linear-gradient(rgb(117, 100, 85), rgb(255, 239, 214)); */
   background-color: rgb(255, 239, 214);
   background-color: rgb(197, 161, 130);
   box-sizing: border-box;
@@ -15,8 +14,6 @@ body {
 }
 .main-header {
   text-align: center;
-  /* font-size: 1.5rem; */
-  /* margin-top: 2rem; */
 }
 
 .container {
@@ -27,7 +24,6 @@ body {
   align-items: center;
   flex-direction: column;
   width: 80%;
-  /* border: 2px solid red; */
   min-height: 100vh;
 }
 .hero {
@@ -35,13 +31,8 @@ body {
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
-  /* background-color: #d2b48c; */
   padding: 1rem;
   max-width: 320px;
-  /* background-image: url("../images/plaid.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
 }
 .hero::before {
   content: "";
@@ -85,14 +76,12 @@ body {
   width: 8rem;
   margin: 0.5rem;
   transition: all 0.4s;
-  /* border: 1px solid #745b31; */
 }
 
 .btn--light:hover {
   background-color: #997a45;
   color: #0e0e0e;
   transform: translateY(-2px);
-  /* box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5); */
 }
 .btn--light:active {
   transform: translateY(0);
@@ -106,14 +95,12 @@ body {
   width: 8rem;
   margin: 0.5rem;
   transition: all 0.4s;
-  /* border: 1px solid #745b31; */
 }
 
 .btn--dark:hover {
   background-color: #312714;
   color: #ffefd6;
   transform: translateY(-2px);
-  /* box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5); */
 }
 .btn--dark:active {
   transform: translateY(0);
@@ -143,16 +130,20 @@ body {
   width: 100%;
   color: #ffefd6;
 }
+.procedures--heading {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.procedures--heading_sub {
+  padding-top: 2rem;
+}
+
 .procedures .container {
   justify-content: flex-start;
   align-items: flex-start;
-  /* min-height: 100vh; */
 }
 
-.procedures--heading {
-  width: 100%;
-  padding: 0.5rem 0;
-}
 .procedures ul,
 .procedures ol {
   margin-top: 1rem;
